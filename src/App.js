@@ -53,7 +53,7 @@ document.getElementById('subbutton').click();
 		document.getElementById('idwarning').innerHTML = "";
 		var that = this; 
 		var city = document.getElementById('cityus').value;
-		var urlrequest = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=4e4f4687d2b93f1f582bfb7545187965'; // URL that is requested to get the data 
+		var urlrequest = 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=ebab5fc9a8bb547972962d20bd4e8aaa';// URL that is requested to get the data 
 		$.ajax({
 		url: urlrequest,
 		method:'get', 
