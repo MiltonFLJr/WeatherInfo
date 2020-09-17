@@ -1,38 +1,110 @@
-.App {
+
+@media(max-width: 568px){
+
+.labelcity{
+  width:100%;
+  padding-right:0px !important;
+}
+
+.inputtext{
+    width: 91% !important;
+}
+
+.inputsubmit{
+  width: 93% !important;
+    margin-top: 10px !important;
+    margin-left: 0px !important;
+}
+
+.containerform{
+    width: 92% !important;
+}
+
+.warning{
+  width:100%;
+}
+
+}
+
+html{
+    height: 100%;
+}
+
+body{
+  background-image: url("imgs/weather.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-color: rgb(0,139,255);
+}
+
+.AbrilFont{
+  font-family: 'Abril Fatface', cursive;
+}
+
+.positionRelative{
+  /* position: relative; */ 
+}
+
+.containerform{
+background-color: white;
+position:absolute;
+width:420px;
+height:auto;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+box-shadow: ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+   border-radius: 15px;
+}
+
+.text-center{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table{
+margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bold{
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.customfontsize{
+  font-size:18px; 
 }
 
-.App-link {
-  color: #61dafb;
+form{
+      padding-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputtext{
+  height:30px;
+  width: 288px;
+}
+
+.inputsubmit{
+  height:36px;
+  margin-left: 10px;
+  width:100px;
+  margin-top: 10px;
+}
+
+.warning{
+  background-color: #f8d7da;
+  border-color: red;
+  border-radius: 4px;
+  color:brown;
+}
+
+.labelcity{
+padding-right: 5px;
+}
+
+.title{
+  padding-top: 30px;
 }
